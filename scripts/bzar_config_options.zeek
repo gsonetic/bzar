@@ -1,7 +1,7 @@
 #
-# File: bzar_config_options.bro
+# File: bzar_config_options.zeek
 # Created: 20191121
-# Updated: 20191121
+# Updated: 20202608
 #
 # Copyright 2018 The MITRE Corporation.  All Rights Reserved.
 # Approved for public release.  Distribution unlimited.  Case number 18-3868.
@@ -379,4 +379,4 @@ export
 }
 #end export
 
-#end bzar_config_options.bro
+#end bzar_config_options.zeek

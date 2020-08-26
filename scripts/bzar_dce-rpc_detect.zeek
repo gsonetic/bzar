@@ -1,7 +1,7 @@
 #
-# File: bzar_dce-rpc_detect.bro
+# File: bzar_dce-rpc_detect.zeek
 # Created: 20180701
-# Updated: 20191121
+# Updated: 20202608
 #
 # Copyright 2018 The MITRE Corporation.  All Rights Reserved.
 # Approved for public release.  Distribution unlimited.  Case number 18-3868.
@@ -27,7 +27,7 @@ event dce_rpc_response(c: connection, fid: count, ctx_id: count, opnum: count, s
 
 @endif
 	# priority==3 ... We want to execute before writing to dce_rpc.log
-	# because default Bro script deletes 'c$dce_rpc' after writing to log
+	# because default zeek script deletes 'c$dce_rpc' after writing to log
 
 	local rpc = "";
 
@@ -200,4 +200,4 @@ event dce_rpc_response(c: connection, fid: count, ctx_id: count, opnum: count, s
 	}
 }
 
-#end bzar_dce-rpc_detect.bro
+#end bzar_dce-rpc_detect.zeek

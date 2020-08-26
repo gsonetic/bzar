@@ -1,7 +1,7 @@
 #
-# File: main.bro
+# File: main.zeek
 # Created: 20180701
-# Updated: 20191121
+# Updated: 20202608
 #
 # Copyright 2018 The MITRE Corporation.  All Rights Reserved.
 # Approved for public release.  Distribution unlimited.  Case number 18-3868.
@@ -331,4 +331,4 @@ event bro_init()
 	]);
 }
 
-#end main.bro
+#end main.zeek

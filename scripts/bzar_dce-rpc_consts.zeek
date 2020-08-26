@@ -1,5 +1,5 @@
 #
-# File: bzar_dce-rpc_consts.bro
+# File: bzar_dce-rpc_consts.zeek
 # Created: 20180701
 # Updated: 20200217
 #
@@ -252,7 +252,7 @@ export
 
 
 	# Microsoft DCE-RPC Interface UUIDs (aka "endpoints") -- 144 more --
-	# to add to Bro DCE_RPC::uuid_endpoint_map.
+	# to add to Zeek DCE_RPC::uuid_endpoint_map.
 	#
 	# References:
 	#     MSDN Library > Open Specifications > Protocols > Windows Protocols > Technical Documents
@@ -408,7 +408,7 @@ export
 
 
 	# Microsoft DCE-RPC Interface Methods (aka "operations") -- 1,145 more --
-	# to add to Bro DCE_RPC::operations.
+	# to add to Zeek DCE_RPC::operations.
 	#
 	# References:
 	#    MSDN Library > Open Specifications > Protocols > Windows Protocols > Technical Documents
@@ -1734,4 +1734,4 @@ export
 	} &redef;
 }
 
-#end bzar_dce-rpc_consts.bro
+#end bzar_dce-rpc_consts.zeek

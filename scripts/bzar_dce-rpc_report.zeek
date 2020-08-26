@@ -1,7 +1,7 @@
 #
-# File: bzar_dce-rpc_report.bro
+# File: bzar_dce-rpc_report.zeek
 # Created: 20180701
-# Updated: 20191121
+# Updated: 20202608
 #
 # Copyright 2018 The MITRE Corporation.  All Rights Reserved.
 # Approved for public release.  Distribution unlimited.  Case number 18-3868.
@@ -1011,4 +1011,4 @@ function rpc_t1135_log ( c : connection, rpc : string ) : bool
 	return T;
 }
 
-#end bzar_dce-rpc_report.bro
+#end bzar_dce-rpc_report.zeek

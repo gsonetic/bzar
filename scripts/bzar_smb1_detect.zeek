@@ -1,7 +1,7 @@
 #
-# File: bzar_smb1_detect.bro
+# File: bzar_smb1_detect.zeek
 # Created: 20180701
-# Updated: 20200217
+# Updated: 20202608
 #
 # Copyright 2018 The MITRE Corporation.  All Rights Reserved.
 # Approved for public release.  Distribution unlimited.  Case number 18-3868.
@@ -98,4 +98,4 @@ event smb1_write_andx_response(c: connection, hdr: SMB1::Header, written_bytes: 
 	SMB::write_file_log(c$smb_state);
 }
 
-#end bzar_smb1_detect.bro
+#end bzar_smb1_detect.zeek

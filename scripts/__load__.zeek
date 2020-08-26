@@ -1,7 +1,7 @@
 #
-# File: __load__.bro
+# File: __load__.zeek
 # Created: 20180701
-# Updated: 20191121
+# Updated: 20200826
 #
 # Copyright 2018 The MITRE Corporation.  All Rights Reserved.
 # Approved for public release.  Distribution unlimited.  Case number 18-3868.
@@ -21,4 +21,4 @@
 
 @load-sigs ./dpd.sig
 
-#end __load__.bro
+#end __load__.zeek
